@@ -4,7 +4,6 @@
 
 # Ignore raw and processed datasets to prevent pushing large files to GitHub
 # The .gitkeep files ensure the directory structure remains intact
-data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
@@ -24,3 +23,12 @@ jupyter_execute/
 # Ignore environment variables and secrets (Strict Security)
 .env
 .env.*
+
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
