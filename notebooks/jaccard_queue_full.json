@@ -1,0 +1,3468 @@
+[
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "pending_transfer",
+    "score": 0.361,
+    "n_shared": 104,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "balance_not_updated_after_cheque_or_cash_deposit",
+    "score": 0.358,
+    "n_shared": 102,
+    "shared_low_df": [
+      "banking",
+      "stayed",
+      "updating"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.351,
+    "n_shared": 111,
+    "shared_low_df": [
+      "approve",
+      "authorize",
+      "fraudulent",
+      "odd",
+      "recognise",
+      "recognizing",
+      "record",
+      "suspicious",
+      "unfamiliar",
+      "unknown",
+      "unusual"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.344,
+    "n_shared": 97,
+    "shared_low_df": [
+      "meaning"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "pending_top_up",
+    "score": 0.331,
+    "n_shared": 99,
+    "shared_low_df": [
+      "delay",
+      "hasnt",
+      "regular"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "declined_transfer",
+    "score": 0.328,
+    "n_shared": 98,
+    "shared_low_df": [
+      "declining"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "declined_transfer",
+    "score": 0.328,
+    "n_shared": 101,
+    "shared_low_df": [
+      "continually",
+      "cross",
+      "declining",
+      "night",
+      "result",
+      "twice"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "top_up_failed",
+    "score": 0.326,
+    "n_shared": 100,
+    "shared_low_df": [
+      "continuously",
+      "unsuccessfully"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "failed_transfer",
+    "score": 0.322,
+    "n_shared": 105,
+    "shared_low_df": [
+      "causing",
+      "continuously",
+      "failure"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "pending_transfer",
+    "score": 0.321,
+    "n_shared": 100,
+    "shared_low_df": [
+      "hoping",
+      "processing",
+      "transfered",
+      "transfering"
+    ]
+  },
+  {
+    "intent_a": "top_up_by_bank_transfer_charge",
+    "intent_b": "top_up_by_card_charge",
+    "score": 0.319,
+    "n_shared": 38,
+    "shared_low_df": [
+      "incur",
+      "refill"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "pending_card_payment",
+    "score": 0.316,
+    "n_shared": 87,
+    "shared_low_df": [
+      "delay"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.313,
+    "n_shared": 111,
+    "shared_low_df": [
+      "finished"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "pending_card_payment",
+    "score": 0.311,
+    "n_shared": 87,
+    "shared_low_df": [
+      "thru"
+    ]
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "top_up_reverted",
+    "score": 0.311,
+    "n_shared": 106,
+    "shared_low_df": [
+      "deducted",
+      "revert",
+      "reverted"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "compromised_card",
+    "score": 0.309,
+    "n_shared": 87,
+    "shared_low_df": [
+      "compromised",
+      "fraudulent",
+      "gained",
+      "possibility",
+      "recognise",
+      "suspicious",
+      "unfamiliar",
+      "unusual"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.309,
+    "n_shared": 105,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "top_up_failed",
+    "score": 0.307,
+    "n_shared": 97,
+    "shared_low_df": [
+      "popup"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "pending_top_up",
+    "score": 0.306,
+    "n_shared": 99,
+    "shared_low_df": [
+      "quicker",
+      "slow"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "failed_transfer",
+    "score": 0.304,
+    "n_shared": 95,
+    "shared_low_df": [
+      "failure"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.304,
+    "n_shared": 90,
+    "shared_low_df": [
+      "alright",
+      "apparently",
+      "declining",
+      "monthly",
+      "refused",
+      "rejecting",
+      "repeatedly"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "failed_transfer",
+    "score": 0.304,
+    "n_shared": 95,
+    "shared_low_df": [
+      "rejecting"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.303,
+    "n_shared": 94,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "cash_withdrawal_not_recognised",
+    "score": 0.303,
+    "n_shared": 98,
+    "shared_low_df": [
+      "anyone",
+      "authorize",
+      "compromised",
+      "odd",
+      "recognise",
+      "suspicious",
+      "unusual"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "top_up_failed",
+    "score": 0.303,
+    "n_shared": 92,
+    "shared_low_df": [
+      "continuously",
+      "declining"
+    ]
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.299,
+    "n_shared": 96,
+    "shared_low_df": [
+      "british",
+      "conversion",
+      "earth",
+      "inaccurate",
+      "less",
+      "mess",
+      "overcharged",
+      "trip",
+      "value"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.298,
+    "n_shared": 99,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.298,
+    "n_shared": 104,
+    "shared_low_df": [
+      "certainly"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "pending_top_up",
+    "score": 0.294,
+    "n_shared": 95,
+    "shared_low_df": [
+      "completing",
+      "delay",
+      "instant",
+      "pop"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "compromised_card",
+    "score": 0.294,
+    "n_shared": 89,
+    "shared_low_df": [
+      "activity",
+      "compromised",
+      "copied",
+      "recognise",
+      "suspicious",
+      "town",
+      "unusual",
+      "victim"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.292,
+    "n_shared": 94,
+    "shared_low_df": [
+      "length",
+      "waited"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "top_up_reverted",
+    "score": 0.292,
+    "n_shared": 95,
+    "shared_low_df": [
+      "disappear",
+      "hae",
+      "seemed"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "balance_not_updated_after_cheque_or_cash_deposit",
+    "score": 0.291,
+    "n_shared": 98,
+    "shared_low_df": [
+      "awaiting"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "pending_top_up",
+    "score": 0.291,
+    "n_shared": 98,
+    "shared_low_df": [
+      "til"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "top_up_reverted",
+    "score": 0.291,
+    "n_shared": 99,
+    "shared_low_df": [
+      "impression",
+      "refilled",
+      "toppedup"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.29,
+    "n_shared": 98,
+    "shared_low_df": [
+      "reached"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "declined_transfer",
+    "score": 0.29,
+    "n_shared": 89,
+    "shared_low_df": [
+      "failure"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.29,
+    "n_shared": 84,
+    "shared_low_df": [
+      "authorize",
+      "familiar",
+      "odd",
+      "spend"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.288,
+    "n_shared": 86,
+    "shared_low_df": [
+      "allowing",
+      "frustrating"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "top_up_reverted",
+    "score": 0.287,
+    "n_shared": 94,
+    "shared_low_df": [
+      "twice"
+    ]
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.287,
+    "n_shared": 108,
+    "shared_low_df": [
+      "care",
+      "promptly",
+      "reviewing"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.286,
+    "n_shared": 98,
+    "shared_low_df": [
+      "awaiting"
+    ]
+  },
+  {
+    "intent_a": "top_up_failed",
+    "intent_b": "top_up_reverted",
+    "score": 0.284,
+    "n_shared": 88,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "top_up_reverted",
+    "score": 0.283,
+    "n_shared": 90,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "top_up_failed",
+    "score": 0.283,
+    "n_shared": 82,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.283,
+    "n_shared": 98,
+    "shared_low_df": [
+      "ever",
+      "overcharged",
+      "pulling",
+      "realized"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "top_up_failed",
+    "score": 0.283,
+    "n_shared": 85,
+    "shared_low_df": [
+      "declining",
+      "refused"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "pending_card_payment",
+    "score": 0.283,
+    "n_shared": 84,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.28,
+    "n_shared": 94,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.28,
+    "n_shared": 97,
+    "shared_low_df": [
+      "certainly"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.279,
+    "n_shared": 92,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.278,
+    "n_shared": 98,
+    "shared_low_df": [
+      "authorize",
+      "odd",
+      "recognise",
+      "suspicious",
+      "unusual",
+      "victim"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.278,
+    "n_shared": 91,
+    "shared_low_df": [
+      "accurate",
+      "fact"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "declined_card_payment",
+    "score": 0.277,
+    "n_shared": 81,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "failed_transfer",
+    "score": 0.277,
+    "n_shared": 91,
+    "shared_low_df": [
+      "couldnt",
+      "ive",
+      "rejecting"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.277,
+    "n_shared": 99,
+    "shared_low_df": [
+      "ive",
+      "none"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.277,
+    "n_shared": 91,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "balance_not_updated_after_bank_transfer",
+    "score": 0.276,
+    "n_shared": 93,
+    "shared_low_df": [
+      "reached"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "pending_top_up",
+    "score": 0.276,
+    "n_shared": 97,
+    "shared_low_df": [
+      "completing",
+      "least"
+    ]
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "top_up_failed",
+    "score": 0.276,
+    "n_shared": 91,
+    "shared_low_df": [
+      "somethings",
+      "sorted"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.275,
+    "n_shared": 86,
+    "shared_low_df": [
+      "latest"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "contactless_not_working",
+    "score": 0.275,
+    "n_shared": 52,
+    "shared_low_df": [
+      "damaged",
+      "nonfunctional"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "top_up_reverted",
+    "score": 0.274,
+    "n_shared": 93,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.273,
+    "n_shared": 93,
+    "shared_low_df": [
+      "revert"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "top_up_failed",
+    "score": 0.273,
+    "n_shared": 80,
+    "shared_low_df": [
+      "declining",
+      "refused"
+    ]
+  },
+  {
+    "intent_a": "get_disposable_virtual_card",
+    "intent_b": "getting_virtual_card",
+    "score": 0.273,
+    "n_shared": 38,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.273,
+    "n_shared": 87,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.272,
+    "n_shared": 101,
+    "shared_low_df": [
+      "delayed",
+      "finished"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "pending_card_payment",
+    "score": 0.27,
+    "n_shared": 76,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.27,
+    "n_shared": 102,
+    "shared_low_df": [
+      "certainly",
+      "side"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "pending_card_payment",
+    "score": 0.269,
+    "n_shared": 87,
+    "shared_low_df": [
+      "hasnt"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "pending_transfer",
+    "score": 0.269,
+    "n_shared": 91,
+    "shared_low_df": [
+      "pend"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "pending_transfer",
+    "score": 0.269,
+    "n_shared": 95,
+    "shared_low_df": [
+      "finished"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.269,
+    "n_shared": 98,
+    "shared_low_df": [
+      "care"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.268,
+    "n_shared": 86,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "pending_transfer",
+    "score": 0.268,
+    "n_shared": 91,
+    "shared_low_df": [
+      "line",
+      "transfered"
+    ]
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "order_physical_card",
+    "score": 0.267,
+    "n_shared": 44,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "pending_top_up",
+    "score": 0.267,
+    "n_shared": 92,
+    "shared_low_df": [
+      "night"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.266,
+    "n_shared": 85,
+    "shared_low_df": [
+      "calling",
+      "glitch",
+      "obtaining",
+      "pulling",
+      "upon"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.266,
+    "n_shared": 96,
+    "shared_low_df": [
+      "accurate"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.265,
+    "n_shared": 109,
+    "shared_low_df": [
+      "charging",
+      "cool",
+      "impression",
+      "incur",
+      "sudden",
+      "unexpected",
+      "year"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.264,
+    "n_shared": 99,
+    "shared_low_df": [
+      "contacted"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "top_up_reverted",
+    "score": 0.264,
+    "n_shared": 80,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "pending_top_up",
+    "score": 0.263,
+    "n_shared": 97,
+    "shared_low_df": [
+      "hasnt",
+      "three"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "top_up_reverted",
+    "score": 0.263,
+    "n_shared": 83,
+    "shared_low_df": [
+      "application",
+      "crypto",
+      "cryptocurrency",
+      "successfully"
+    ]
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.263,
+    "n_shared": 84,
+    "shared_low_df": [
+      "authorise",
+      "authorize",
+      "billing",
+      "odd",
+      "reimbursed"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.262,
+    "n_shared": 90,
+    "shared_low_df": [
+      "ive"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.261,
+    "n_shared": 81,
+    "shared_low_df": [
+      "randomly"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "failed_transfer",
+    "score": 0.26,
+    "n_shared": 74,
+    "shared_low_df": [
+      "broke",
+      "reject"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.259,
+    "n_shared": 94,
+    "shared_low_df": [
+      "occurred"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.259,
+    "n_shared": 96,
+    "shared_low_df": [
+      "causing",
+      "son"
+    ]
+  },
+  {
+    "intent_a": "supported_cards_and_currencies",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.259,
+    "n_shared": 36,
+    "shared_low_df": [
+      "suffice"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.258,
+    "n_shared": 108,
+    "shared_low_df": [
+      "charging",
+      "elaborate",
+      "resulted",
+      "structure",
+      "unaware"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.257,
+    "n_shared": 86,
+    "shared_low_df": [
+      "stating"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.257,
+    "n_shared": 69,
+    "shared_low_df": [
+      "frustrating"
+    ]
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "card_arrival",
+    "score": 0.256,
+    "n_shared": 46,
+    "shared_low_df": [
+      "mailed"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "pending_card_payment",
+    "score": 0.256,
+    "n_shared": 80,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "top_up_reverted",
+    "score": 0.255,
+    "n_shared": 82,
+    "shared_low_df": [
+      "believed"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "pending_top_up",
+    "score": 0.255,
+    "n_shared": 84,
+    "shared_low_df": [
+      "brand",
+      "three"
+    ]
+  },
+  {
+    "intent_a": "disposable_card_limits",
+    "intent_b": "get_disposable_virtual_card",
+    "score": 0.255,
+    "n_shared": 39,
+    "shared_low_df": [
+      "description",
+      "disposable",
+      "everyday",
+      "temporary",
+      "throw",
+      "us"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.255,
+    "n_shared": 82,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "cash_withdrawal_charge",
+    "score": 0.254,
+    "n_shared": 86,
+    "shared_low_df": [
+      "always",
+      "avoid",
+      "charging",
+      "prior"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "transfer_timing",
+    "score": 0.253,
+    "n_shared": 60,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "getting_virtual_card",
+    "score": 0.253,
+    "n_shared": 41,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "pending_transfer",
+    "score": 0.252,
+    "n_shared": 84,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "declined_transfer",
+    "score": 0.252,
+    "n_shared": 70,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "pending_transfer",
+    "score": 0.252,
+    "n_shared": 89,
+    "shared_low_df": [
+      "five"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.251,
+    "n_shared": 97,
+    "shared_low_df": [
+      "awaiting",
+      "reached",
+      "unfortunately"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "top_up_reverted",
+    "score": 0.251,
+    "n_shared": 80,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.251,
+    "n_shared": 93,
+    "shared_low_df": [
+      "deducted"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "declined_card_payment",
+    "score": 0.25,
+    "n_shared": 65,
+    "shared_low_df": [
+      "grocery",
+      "restaurant",
+      "ticket"
+    ]
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.25,
+    "n_shared": 82,
+    "shared_low_df": [
+      "purpose",
+      "reverted"
+    ]
+  },
+  {
+    "intent_a": "supported_cards_and_currencies",
+    "intent_b": "transfer_into_account",
+    "score": 0.25,
+    "n_shared": 39,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "pending_card_payment",
+    "score": 0.249,
+    "n_shared": 69,
+    "shared_low_df": [
+      "authorise"
+    ]
+  },
+  {
+    "intent_a": "top_up_reverted",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.249,
+    "n_shared": 92,
+    "shared_low_df": [
+      "action",
+      "spend",
+      "twice"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "top_up_failed",
+    "score": 0.248,
+    "n_shared": 76,
+    "shared_low_df": [
+      "flag",
+      "red"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "pending_top_up",
+    "score": 0.248,
+    "n_shared": 82,
+    "shared_low_df": [
+      "continues",
+      "pop"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "pending_transfer",
+    "score": 0.247,
+    "n_shared": 91,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "receiving_money",
+    "score": 0.247,
+    "n_shared": 47,
+    "shared_low_df": [
+      "special"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "top_up_failed",
+    "score": 0.247,
+    "n_shared": 61,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_delivery_estimate",
+    "intent_b": "transfer_timing",
+    "score": 0.247,
+    "n_shared": 44,
+    "shared_low_df": [
+      "arrives",
+      "estimated",
+      "length",
+      "quick"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "virtual_card_not_working",
+    "score": 0.247,
+    "n_shared": 43,
+    "shared_low_df": [
+      "subscription"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "top_up_reverted",
+    "score": 0.247,
+    "n_shared": 86,
+    "shared_low_df": [
+      "lose"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "top_up_reverted",
+    "score": 0.246,
+    "n_shared": 89,
+    "shared_low_df": [
+      "action"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "supported_cards_and_currencies",
+    "score": 0.246,
+    "n_shared": 41,
+    "shared_low_df": [
+      "american",
+      "amex",
+      "express",
+      "handle"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "top_up_failed",
+    "score": 0.246,
+    "n_shared": 64,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "disposable_card_limits",
+    "intent_b": "top_up_limits",
+    "score": 0.246,
+    "n_shared": 34,
+    "shared_low_df": [
+      "daily",
+      "limited",
+      "max",
+      "per"
+    ]
+  },
+  {
+    "intent_a": "lost_or_stolen_card",
+    "intent_b": "lost_or_stolen_phone",
+    "score": 0.246,
+    "n_shared": 57,
+    "shared_low_df": [
+      "bag",
+      "block",
+      "misplaced"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.246,
+    "n_shared": 90,
+    "shared_low_df": [
+      "occurred",
+      "wondered"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.245,
+    "n_shared": 88,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.245,
+    "n_shared": 82,
+    "shared_low_df": [
+      "avoid"
+    ]
+  },
+  {
+    "intent_a": "top_up_by_cash_or_cheque",
+    "intent_b": "transfer_into_account",
+    "score": 0.245,
+    "n_shared": 39,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "request_refund",
+    "score": 0.244,
+    "n_shared": 92,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.244,
+    "n_shared": 90,
+    "shared_low_df": [
+      "accurate",
+      "twice"
+    ]
+  },
+  {
+    "intent_a": "fiat_currency_support",
+    "intent_b": "supported_cards_and_currencies",
+    "score": 0.244,
+    "n_shared": 39,
+    "shared_low_df": [
+      "besides",
+      "euro",
+      "handle"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "topping_up_by_card",
+    "score": 0.243,
+    "n_shared": 44,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "declined_transfer",
+    "score": 0.243,
+    "n_shared": 80,
+    "shared_low_df": [
+      "investigate"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.243,
+    "n_shared": 77,
+    "shared_low_df": [
+      "draw",
+      "front",
+      "till"
+    ]
+  },
+  {
+    "intent_a": "get_physical_card",
+    "intent_b": "getting_virtual_card",
+    "score": 0.243,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.242,
+    "n_shared": 95,
+    "shared_low_df": [
+      "action",
+      "ensure"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "card_payment_not_recognised",
+    "score": 0.242,
+    "n_shared": 77,
+    "shared_low_df": [
+      "displaying"
+    ]
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "card_delivery_estimate",
+    "score": 0.242,
+    "n_shared": 45,
+    "shared_low_df": [
+      "expedited",
+      "mailed",
+      "tracked"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.241,
+    "n_shared": 41,
+    "shared_low_df": [
+      "fill",
+      "tank"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.241,
+    "n_shared": 89,
+    "shared_low_df": [
+      "action",
+      "previously"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.241,
+    "n_shared": 77,
+    "shared_low_df": [
+      "authorize",
+      "odd"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.241,
+    "n_shared": 81,
+    "shared_low_df": [
+      "hundred",
+      "occurred",
+      "visited",
+      "wd"
+    ]
+  },
+  {
+    "intent_a": "getting_spare_card",
+    "intent_b": "order_physical_card",
+    "score": 0.241,
+    "n_shared": 41,
+    "shared_low_df": [
+      "carry"
+    ]
+  },
+  {
+    "intent_a": "receiving_money",
+    "intent_b": "supported_cards_and_currencies",
+    "score": 0.241,
+    "n_shared": 39,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.241,
+    "n_shared": 106,
+    "shared_low_df": [
+      "frequent",
+      "reviewing",
+      "site"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "cash_withdrawal_not_recognised",
+    "score": 0.24,
+    "n_shared": 81,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.24,
+    "n_shared": 79,
+    "shared_low_df": [
+      "ive"
+    ]
+  },
+  {
+    "intent_a": "compromised_card",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.24,
+    "n_shared": 77,
+    "shared_low_df": [
+      "fraud",
+      "fraudulent",
+      "recognise",
+      "suspicious",
+      "unfamiliar",
+      "unusual",
+      "victim"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.24,
+    "n_shared": 88,
+    "shared_low_df": [
+      "causing",
+      "doublechecked",
+      "recipient"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.24,
+    "n_shared": 83,
+    "shared_low_df": [
+      "progress"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.24,
+    "n_shared": 92,
+    "shared_low_df": [
+      "afford",
+      "care"
+    ]
+  },
+  {
+    "intent_a": "request_refund",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.24,
+    "n_shared": 90,
+    "shared_low_df": [
+      "claim",
+      "refuse"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "card_arrival",
+    "score": 0.239,
+    "n_shared": 59,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "top_up_failed",
+    "score": 0.239,
+    "n_shared": 76,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_failed",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.239,
+    "n_shared": 83,
+    "shared_low_df": [
+      "unfortunately"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.238,
+    "n_shared": 86,
+    "shared_low_df": [
+      "fraudulent",
+      "spend"
+    ]
+  },
+  {
+    "intent_a": "atm_support",
+    "intent_b": "supported_cards_and_currencies",
+    "score": 0.237,
+    "n_shared": 31,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.237,
+    "n_shared": 89,
+    "shared_low_df": [
+      "clearly",
+      "ensure",
+      "family",
+      "mistakenly",
+      "notification"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.237,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "cash_withdrawal_charge",
+    "score": 0.237,
+    "n_shared": 75,
+    "shared_low_df": [
+      "overcharged"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "declined_transfer",
+    "score": 0.236,
+    "n_shared": 80,
+    "shared_low_df": [
+      "always"
+    ]
+  },
+  {
+    "intent_a": "supported_cards_and_currencies",
+    "intent_b": "top_up_by_bank_transfer_charge",
+    "score": 0.236,
+    "n_shared": 33,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "transfer_timing",
+    "score": 0.235,
+    "n_shared": 42,
+    "shared_low_df": [
+      "arrival"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "cash_withdrawal_not_recognised",
+    "score": 0.235,
+    "n_shared": 82,
+    "shared_low_df": [
+      "unexpected"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.235,
+    "n_shared": 80,
+    "shared_low_df": [
+      "apparently"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "pending_top_up",
+    "score": 0.235,
+    "n_shared": 81,
+    "shared_low_df": [
+      "night"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "pin_blocked",
+    "score": 0.234,
+    "n_shared": 50,
+    "shared_low_df": [
+      "reset",
+      "unblock"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "top_up_reverted",
+    "score": 0.234,
+    "n_shared": 78,
+    "shared_low_df": [
+      "revert",
+      "spend"
+    ]
+  },
+  {
+    "intent_a": "compromised_card",
+    "intent_b": "lost_or_stolen_card",
+    "score": 0.234,
+    "n_shared": 61,
+    "shared_low_df": [
+      "activity",
+      "fraudulently",
+      "permission",
+      "stuff"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.234,
+    "n_shared": 75,
+    "shared_low_df": [
+      "latest"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.233,
+    "n_shared": 70,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "verify_my_identity",
+    "intent_b": "why_verify_identity",
+    "score": 0.233,
+    "n_shared": 42,
+    "shared_low_df": [
+      "document",
+      "fill",
+      "id",
+      "identification",
+      "indentity",
+      "proof",
+      "prove",
+      "require",
+      "verifying"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.232,
+    "n_shared": 82,
+    "shared_low_df": [
+      "dinner",
+      "restaurant"
+    ]
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "top_up_reverted",
+    "score": 0.232,
+    "n_shared": 83,
+    "shared_low_df": [
+      "automatic",
+      "deducted"
+    ]
+  },
+  {
+    "intent_a": "getting_virtual_card",
+    "intent_b": "order_physical_card",
+    "score": 0.232,
+    "n_shared": 35,
+    "shared_low_df": [
+      "hand"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "request_refund",
+    "score": 0.232,
+    "n_shared": 85,
+    "shared_low_df": [
+      "ahead",
+      "growing",
+      "hard",
+      "processing"
+    ]
+  },
+  {
+    "intent_a": "activate_my_card",
+    "intent_b": "apple_pay_or_google_pay",
+    "score": 0.231,
+    "n_shared": 45,
+    "shared_low_df": [
+      "activate"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.231,
+    "n_shared": 74,
+    "shared_low_df": [
+      "screen"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "top_up_reverted",
+    "score": 0.231,
+    "n_shared": 79,
+    "shared_low_df": [
+      "action",
+      "glitch",
+      "impression"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "top_up_failed",
+    "score": 0.231,
+    "n_shared": 67,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "receiving_money",
+    "intent_b": "transfer_into_account",
+    "score": 0.231,
+    "n_shared": 42,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.23,
+    "n_shared": 103,
+    "shared_low_df": [
+      "unfortunately"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "failed_transfer",
+    "score": 0.23,
+    "n_shared": 77,
+    "shared_low_df": [
+      "completing",
+      "shouldnt"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "declined_transfer",
+    "score": 0.23,
+    "n_shared": 76,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "request_refund",
+    "score": 0.23,
+    "n_shared": 77,
+    "shared_low_df": [
+      "accident",
+      "canceling",
+      "cancelling"
+    ]
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "pending_transfer",
+    "score": 0.23,
+    "n_shared": 74,
+    "shared_low_df": [
+      "answer"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "top_up_reverted",
+    "score": 0.23,
+    "n_shared": 81,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_failed",
+    "intent_b": "topping_up_by_card",
+    "score": 0.23,
+    "n_shared": 54,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_reverted",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.23,
+    "n_shared": 76,
+    "shared_low_df": [
+      "application",
+      "deducted",
+      "glitch"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.229,
+    "n_shared": 83,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "pending_card_payment",
+    "score": 0.229,
+    "n_shared": 69,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.229,
+    "n_shared": 97,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.229,
+    "n_shared": 89,
+    "shared_low_df": [
+      "false",
+      "fraudulent"
+    ]
+  },
+  {
+    "intent_a": "wrong_amount_of_cash_received",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.229,
+    "n_shared": 80,
+    "shared_low_df": [
+      "draw",
+      "gave",
+      "less",
+      "match",
+      "messed",
+      "pulling",
+      "shorted"
+    ]
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.228,
+    "n_shared": 81,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "supported_cards_and_currencies",
+    "intent_b": "top_up_by_card_charge",
+    "score": 0.228,
+    "n_shared": 29,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "transaction_charged_twice",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.228,
+    "n_shared": 104,
+    "shared_low_df": [
+      "reviewing",
+      "student"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "declined_transfer",
+    "score": 0.227,
+    "n_shared": 83,
+    "shared_low_df": [
+      "investigate"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.227,
+    "n_shared": 82,
+    "shared_low_df": [
+      "ive",
+      "whenever"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "top_up_reverted",
+    "score": 0.227,
+    "n_shared": 76,
+    "shared_low_df": [
+      "twice"
+    ]
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.227,
+    "n_shared": 90,
+    "shared_low_df": [
+      "cool",
+      "thinking"
+    ]
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.227,
+    "n_shared": 87,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.227,
+    "n_shared": 82,
+    "shared_low_df": [
+      "accurate"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.226,
+    "n_shared": 86,
+    "shared_low_df": [
+      "initiate",
+      "large",
+      "passed",
+      "truly"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.226,
+    "n_shared": 72,
+    "shared_low_df": [
+      "displaying"
+    ]
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "change_pin",
+    "score": 0.226,
+    "n_shared": 45,
+    "shared_low_df": [
+      "branch",
+      "near",
+      "replace"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.226,
+    "n_shared": 86,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "virtual_card_not_working",
+    "score": 0.226,
+    "n_shared": 49,
+    "shared_low_df": [
+      "monthly"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "card_arrival",
+    "score": 0.225,
+    "n_shared": 65,
+    "shared_low_df": [
+      "hasnt"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "pending_top_up",
+    "score": 0.225,
+    "n_shared": 80,
+    "shared_low_df": [
+      "ever",
+      "impression"
+    ]
+  },
+  {
+    "intent_a": "reverted_card_payment?",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.225,
+    "n_shared": 79,
+    "shared_low_df": [
+      "deducted",
+      "gave",
+      "occurred"
+    ]
+  },
+  {
+    "intent_a": "topping_up_by_card",
+    "intent_b": "transfer_into_account",
+    "score": 0.225,
+    "n_shared": 39,
+    "shared_low_df": [
+      "empty"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.224,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.224,
+    "n_shared": 66,
+    "shared_low_df": [
+      "arrival"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "card_payment_not_recognised",
+    "score": 0.224,
+    "n_shared": 76,
+    "shared_low_df": [
+      "confusing",
+      "read"
+    ]
+  },
+  {
+    "intent_a": "activate_my_card",
+    "intent_b": "verify_my_identity",
+    "score": 0.223,
+    "n_shared": 39,
+    "shared_low_df": [
+      "id",
+      "identification"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "declined_transfer",
+    "score": 0.223,
+    "n_shared": 73,
+    "shared_low_df": [
+      "transfered"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "pending_card_payment",
+    "score": 0.223,
+    "n_shared": 65,
+    "shared_low_df": [
+      "thru"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.223,
+    "n_shared": 68,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.223,
+    "n_shared": 70,
+    "shared_low_df": [
+      "assessed",
+      "cool",
+      "inquiring",
+      "overcharged"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.223,
+    "n_shared": 88,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "pending_card_payment",
+    "score": 0.222,
+    "n_shared": 52,
+    "shared_low_df": [
+      "hasnt"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "pending_card_payment",
+    "score": 0.221,
+    "n_shared": 70,
+    "shared_low_df": [
+      "applying",
+      "stuff"
+    ]
+  },
+  {
+    "intent_a": "getting_virtual_card",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.221,
+    "n_shared": 32,
+    "shared_low_df": [
+      "hand"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "card_payment_not_recognised",
+    "score": 0.22,
+    "n_shared": 79,
+    "shared_low_df": [
+      "investigate",
+      "noticing"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "topping_up_by_card",
+    "score": 0.22,
+    "n_shared": 54,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "declined_transfer",
+    "score": 0.22,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.22,
+    "n_shared": 80,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "transfer_timing",
+    "score": 0.22,
+    "n_shared": 59,
+    "shared_low_df": [
+      "average"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "cancel_transfer",
+    "score": 0.219,
+    "n_shared": 68,
+    "shared_low_df": [
+      "thru"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.219,
+    "n_shared": 71,
+    "shared_low_df": [
+      "unacceptable"
+    ]
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "transfer_timing",
+    "score": 0.219,
+    "n_shared": 39,
+    "shared_low_df": [
+      "china",
+      "quick"
+    ]
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.219,
+    "n_shared": 85,
+    "shared_low_df": [
+      "delayed",
+      "rent",
+      "trace"
+    ]
+  },
+  {
+    "intent_a": "exchange_charge",
+    "intent_b": "exchange_rate",
+    "score": 0.219,
+    "n_shared": 37,
+    "shared_low_df": [
+      "base",
+      "basis"
+    ]
+  },
+  {
+    "intent_a": "exchange_via_app",
+    "intent_b": "receiving_money",
+    "score": 0.219,
+    "n_shared": 37,
+    "shared_low_df": [
+      "convert",
+      "gbp"
+    ]
+  },
+  {
+    "intent_a": "get_disposable_virtual_card",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.219,
+    "n_shared": 32,
+    "shared_low_df": [
+      "depositing"
+    ]
+  },
+  {
+    "intent_a": "top_up_reverted",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.219,
+    "n_shared": 82,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "transfer_not_received_by_recipient",
+    "intent_b": "transfer_timing",
+    "score": 0.219,
+    "n_shared": 63,
+    "shared_low_df": [
+      "arrival",
+      "length"
+    ]
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.218,
+    "n_shared": 76,
+    "shared_low_df": [
+      "seemingly",
+      "spend"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "beneficiary_not_allowed",
+    "score": 0.217,
+    "n_shared": 55,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "card_payment_wrong_exchange_rate",
+    "score": 0.217,
+    "n_shared": 71,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.217,
+    "n_shared": 88,
+    "shared_low_df": [
+      "conversion",
+      "disappointed",
+      "less"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.217,
+    "n_shared": 78,
+    "shared_low_df": [
+      "fraud",
+      "unfamiliar"
+    ]
+  },
+  {
+    "intent_a": "exchange_charge",
+    "intent_b": "top_up_by_bank_transfer_charge",
+    "score": 0.217,
+    "n_shared": 35,
+    "shared_low_df": [
+      "sends"
+    ]
+  },
+  {
+    "intent_a": "get_disposable_virtual_card",
+    "intent_b": "getting_spare_card",
+    "score": 0.217,
+    "n_shared": 36,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "verify_my_identity",
+    "intent_b": "verify_top_up",
+    "score": 0.217,
+    "n_shared": 33,
+    "shared_low_df": [
+      "forth",
+      "require",
+      "verifying"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "transfer_into_account",
+    "score": 0.216,
+    "n_shared": 41,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "declined_card_payment",
+    "score": 0.216,
+    "n_shared": 68,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "failed_transfer",
+    "score": 0.216,
+    "n_shared": 74,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.216,
+    "n_shared": 72,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "pending_card_payment",
+    "score": 0.216,
+    "n_shared": 71,
+    "shared_low_df": [
+      "authorise"
+    ]
+  },
+  {
+    "intent_a": "top_up_reverted",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.216,
+    "n_shared": 93,
+    "shared_low_df": [
+      "impression",
+      "offered"
+    ]
+  },
+  {
+    "intent_a": "atm_support",
+    "intent_b": "change_pin",
+    "score": 0.215,
+    "n_shared": 37,
+    "shared_low_df": [
+      "near",
+      "nearby"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.215,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.215,
+    "n_shared": 75,
+    "shared_low_df": [
+      "avoid"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "top_up_failed",
+    "score": 0.215,
+    "n_shared": 68,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "get_physical_card",
+    "intent_b": "verify_top_up",
+    "score": 0.215,
+    "n_shared": 31,
+    "shared_low_df": [
+      "visible"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "request_refund",
+    "score": 0.215,
+    "n_shared": 71,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "transfer_timing",
+    "score": 0.215,
+    "n_shared": 49,
+    "shared_low_df": [
+      "initiated",
+      "length",
+      "longest"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "top_up_failed",
+    "score": 0.215,
+    "n_shared": 72,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_by_cash_or_cheque",
+    "intent_b": "topping_up_by_card",
+    "score": 0.215,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "topping_up_by_card",
+    "intent_b": "verify_top_up",
+    "score": 0.215,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "pending_transfer",
+    "score": 0.214,
+    "n_shared": 71,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "card_delivery_estimate",
+    "score": 0.214,
+    "n_shared": 40,
+    "shared_low_df": [
+      "express",
+      "mailed",
+      "quick",
+      "shipped",
+      "specifically"
+    ]
+  },
+  {
+    "intent_a": "get_disposable_virtual_card",
+    "intent_b": "order_physical_card",
+    "score": 0.214,
+    "n_shared": 33,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "card_not_working",
+    "score": 0.213,
+    "n_shared": 57,
+    "shared_low_df": [
+      "frustrating"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.213,
+    "n_shared": 75,
+    "shared_low_df": [
+      "performed",
+      "rent",
+      "side"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "pending_card_payment",
+    "score": 0.213,
+    "n_shared": 69,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "compromised_card",
+    "intent_b": "lost_or_stolen_phone",
+    "score": 0.213,
+    "n_shared": 54,
+    "shared_low_df": [
+      "mobile",
+      "prevent"
+    ]
+  },
+  {
+    "intent_a": "contactless_not_working",
+    "intent_b": "virtual_card_not_working",
+    "score": 0.213,
+    "n_shared": 32,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "pending_card_payment",
+    "score": 0.213,
+    "n_shared": 65,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "top_up_reverted",
+    "score": 0.213,
+    "n_shared": 68,
+    "shared_low_df": [
+      "reverted",
+      "spend"
+    ]
+  },
+  {
+    "intent_a": "passcode_forgotten",
+    "intent_b": "pin_blocked",
+    "score": 0.213,
+    "n_shared": 38,
+    "shared_low_df": [
+      "enter",
+      "entering",
+      "forget",
+      "forgot",
+      "locked",
+      "reset"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "topping_up_by_card",
+    "score": 0.213,
+    "n_shared": 58,
+    "shared_low_df": [
+      "toppedup"
+    ]
+  },
+  {
+    "intent_a": "transfer_fee_charged",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.213,
+    "n_shared": 96,
+    "shared_low_df": [
+      "conversion",
+      "internationally",
+      "less",
+      "ridiculous"
+    ]
+  },
+  {
+    "intent_a": "transfer_into_account",
+    "intent_b": "verify_my_identity",
+    "score": 0.213,
+    "n_shared": 36,
+    "shared_low_df": [
+      "forth"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.212,
+    "n_shared": 73,
+    "shared_low_df": [
+      "revert",
+      "side"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "top_up_reverted",
+    "score": 0.212,
+    "n_shared": 69,
+    "shared_low_df": [
+      "accident",
+      "cancellation",
+      "revert"
+    ]
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.212,
+    "n_shared": 66,
+    "shared_low_df": [
+      "entirely",
+      "less"
+    ]
+  },
+  {
+    "intent_a": "getting_spare_card",
+    "intent_b": "top_up_by_bank_transfer_charge",
+    "score": 0.212,
+    "n_shared": 35,
+    "shared_low_df": [
+      "third",
+      "total"
+    ]
+  },
+  {
+    "intent_a": "pending_card_payment",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.212,
+    "n_shared": 64,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.211,
+    "n_shared": 74,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_about_to_expire",
+    "intent_b": "getting_spare_card",
+    "score": 0.211,
+    "n_shared": 39,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "top_up_reverted",
+    "score": 0.211,
+    "n_shared": 61,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "cash_withdrawal_charge",
+    "score": 0.211,
+    "n_shared": 71,
+    "shared_low_df": [
+      "attached",
+      "unfamiliar"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.211,
+    "n_shared": 82,
+    "shared_low_df": [
+      "activity",
+      "afford",
+      "duplicate",
+      "visited"
+    ]
+  },
+  {
+    "intent_a": "change_pin",
+    "intent_b": "exchange_via_app",
+    "score": 0.211,
+    "n_shared": 39,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "pending_transfer",
+    "score": 0.211,
+    "n_shared": 71,
+    "shared_low_df": [
+      "finally"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.211,
+    "n_shared": 67,
+    "shared_low_df": [
+      "causing"
+    ]
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.211,
+    "n_shared": 94,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "cash_withdrawal_not_recognised",
+    "score": 0.21,
+    "n_shared": 80,
+    "shared_low_df": [
+      "become"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "top_up_reverted",
+    "score": 0.21,
+    "n_shared": 58,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "card_arrival",
+    "score": 0.21,
+    "n_shared": 54,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.21,
+    "n_shared": 60,
+    "shared_low_df": [
+      "understanding"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "card_payment_wrong_exchange_rate",
+    "score": 0.21,
+    "n_shared": 66,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.21,
+    "n_shared": 62,
+    "shared_low_df": [
+      "overcharged"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "pending_top_up",
+    "score": 0.21,
+    "n_shared": 78,
+    "shared_low_df": [
+      "according",
+      "afford"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.21,
+    "n_shared": 76,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.21,
+    "n_shared": 90,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "request_refund",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.21,
+    "n_shared": 83,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.209,
+    "n_shared": 71,
+    "shared_low_df": [
+      "large",
+      "rent",
+      "transcation"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "pending_card_payment",
+    "score": 0.209,
+    "n_shared": 61,
+    "shared_low_df": [
+      "initiated",
+      "thru"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.209,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.209,
+    "n_shared": 66,
+    "shared_low_df": [
+      "standing"
+    ]
+  },
+  {
+    "intent_a": "declined_transfer",
+    "intent_b": "virtual_card_not_working",
+    "score": 0.209,
+    "n_shared": 50,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "failed_transfer",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.209,
+    "n_shared": 72,
+    "shared_low_df": [
+      "messed"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.209,
+    "n_shared": 92,
+    "shared_low_df": [
+      "beneficiary",
+      "eu",
+      "transfering"
+    ]
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "pending_top_up",
+    "score": 0.208,
+    "n_shared": 59,
+    "shared_low_df": [
+      "hasnt"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "topping_up_by_card",
+    "score": 0.208,
+    "n_shared": 56,
+    "shared_low_df": [
+      "anyone"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "card_payment_fee_charged",
+    "score": 0.207,
+    "n_shared": 78,
+    "shared_low_df": [
+      "big",
+      "cat",
+      "ensure",
+      "fluffy"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "extra_charge_on_statement",
+    "score": 0.207,
+    "n_shared": 71,
+    "shared_low_df": [
+      "frustrated"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "failed_transfer",
+    "score": 0.207,
+    "n_shared": 69,
+    "shared_low_df": [
+      "messed",
+      "related"
+    ]
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "top_up_failed",
+    "score": 0.207,
+    "n_shared": 63,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "pending_top_up",
+    "score": 0.207,
+    "n_shared": 73,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.207,
+    "n_shared": 74,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "exchange_via_app",
+    "intent_b": "fiat_currency_support",
+    "score": 0.207,
+    "n_shared": 35,
+    "shared_low_df": [
+      "convert",
+      "eur",
+      "euro",
+      "usd"
+    ]
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "transfer_timing",
+    "score": 0.207,
+    "n_shared": 57,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "receiving_money",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.207,
+    "n_shared": 35,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_reverted",
+    "intent_b": "topping_up_by_card",
+    "score": 0.207,
+    "n_shared": 54,
+    "shared_low_df": [
+      "disappeared",
+      "toppedup",
+      "vanished"
+    ]
+  },
+  {
+    "intent_a": "transaction_charged_twice",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.207,
+    "n_shared": 76,
+    "shared_low_df": [
+      "visited"
+    ]
+  },
+  {
+    "intent_a": "apple_pay_or_google_pay",
+    "intent_b": "automatic_top_up",
+    "score": 0.206,
+    "n_shared": 42,
+    "shared_low_df": [
+      "activate"
+    ]
+  },
+  {
+    "intent_a": "automatic_top_up",
+    "intent_b": "top_up_limits",
+    "score": 0.206,
+    "n_shared": 33,
+    "shared_low_df": [
+      "daily",
+      "highest"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "card_not_working",
+    "score": 0.206,
+    "n_shared": 57,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cancel_transfer",
+    "intent_b": "cash_withdrawal_not_recognised",
+    "score": 0.206,
+    "n_shared": 69,
+    "shared_low_df": [
+      "absolutely",
+      "hope",
+      "realised"
+    ]
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "lost_or_stolen_phone",
+    "score": 0.206,
+    "n_shared": 47,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.206,
+    "n_shared": 77,
+    "shared_low_df": [
+      "beforehand",
+      "ended"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "pending_card_payment",
+    "score": 0.206,
+    "n_shared": 65,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "wrong_exchange_rate_for_cash_withdrawal",
+    "score": 0.206,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "get_disposable_virtual_card",
+    "intent_b": "visa_or_mastercard",
+    "score": 0.206,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_linking",
+    "intent_b": "getting_virtual_card",
+    "score": 0.205,
+    "n_shared": 35,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_not_working",
+    "intent_b": "pending_top_up",
+    "score": 0.205,
+    "n_shared": 62,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "exchange_via_app",
+    "intent_b": "transfer_into_account",
+    "score": 0.205,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "top_up_by_bank_transfer_charge",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.205,
+    "n_shared": 30,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "transaction_charged_twice",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.205,
+    "n_shared": 84,
+    "shared_low_df": [
+      "family"
+    ]
+  },
+  {
+    "intent_a": "Refund_not_showing_up",
+    "intent_b": "failed_transfer",
+    "score": 0.204,
+    "n_shared": 78,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "atm_support",
+    "intent_b": "top_up_by_cash_or_cheque",
+    "score": 0.204,
+    "n_shared": 28,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "declined_cash_withdrawal",
+    "score": 0.204,
+    "n_shared": 66,
+    "shared_low_df": [
+      "alright"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "top_up_failed",
+    "score": 0.204,
+    "n_shared": 64,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.204,
+    "n_shared": 73,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "card_arrival",
+    "intent_b": "get_physical_card",
+    "score": 0.204,
+    "n_shared": 34,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "failed_transfer",
+    "score": 0.204,
+    "n_shared": 73,
+    "shared_low_df": [
+      "ive"
+    ]
+  },
+  {
+    "intent_a": "change_pin",
+    "intent_b": "receiving_money",
+    "score": 0.204,
+    "n_shared": 42,
+    "shared_low_df": [
+      "select"
+    ]
+  },
+  {
+    "intent_a": "contactless_not_working",
+    "intent_b": "top_up_failed",
+    "score": 0.204,
+    "n_shared": 49,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "extra_charge_on_statement",
+    "intent_b": "pending_cash_withdrawal",
+    "score": 0.204,
+    "n_shared": 65,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "request_refund",
+    "score": 0.203,
+    "n_shared": 71,
+    "shared_low_df": [
+      "processing"
+    ]
+  },
+  {
+    "intent_a": "card_payment_fee_charged",
+    "intent_b": "declined_transfer",
+    "score": 0.203,
+    "n_shared": 72,
+    "shared_low_df": [
+      "always",
+      "result"
+    ]
+  },
+  {
+    "intent_a": "card_payment_not_recognised",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.203,
+    "n_shared": 75,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "transfer_fee_charged",
+    "score": 0.203,
+    "n_shared": 84,
+    "shared_low_df": [
+      "disappointed",
+      "informed"
+    ]
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "request_refund",
+    "score": 0.203,
+    "n_shared": 74,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "request_refund",
+    "score": 0.203,
+    "n_shared": 77,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "transfer_fee_charged",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.203,
+    "n_shared": 94,
+    "shared_low_df": [
+      "receiver",
+      "unfortunately"
+    ]
+  },
+  {
+    "intent_a": "verify_my_identity",
+    "intent_b": "verify_source_of_funds",
+    "score": 0.203,
+    "n_shared": 28,
+    "shared_low_df": [
+      "prove",
+      "require",
+      "validate"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.202,
+    "n_shared": 64,
+    "shared_low_df": [
+      "application",
+      "selected",
+      "telling"
+    ]
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "direct_debit_payment_not_recognised",
+    "score": 0.202,
+    "n_shared": 69,
+    "shared_low_df": [
+      "electronic",
+      "truly"
+    ]
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "reverted_card_payment?",
+    "score": 0.202,
+    "n_shared": 70,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "direct_debit_payment_not_recognised",
+    "intent_b": "request_refund",
+    "score": 0.202,
+    "n_shared": 77,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_top_up",
+    "intent_b": "wrong_amount_of_cash_received",
+    "score": 0.202,
+    "n_shared": 71,
+    "shared_low_df": [
+      "half"
+    ]
+  },
+  {
+    "intent_a": "pending_transfer",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.202,
+    "n_shared": 79,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "automatic_top_up",
+    "intent_b": "disposable_card_limits",
+    "score": 0.201,
+    "n_shared": 38,
+    "shared_low_df": [
+      "along",
+      "daily"
+    ]
+  },
+  {
+    "intent_a": "beneficiary_not_allowed",
+    "intent_b": "pending_transfer",
+    "score": 0.201,
+    "n_shared": 68,
+    "shared_low_df": [
+      "answer",
+      "beneficiary"
+    ]
+  },
+  {
+    "intent_a": "card_payment_wrong_exchange_rate",
+    "intent_b": "pending_card_payment",
+    "score": 0.201,
+    "n_shared": 59,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "cash_withdrawal_not_recognised",
+    "intent_b": "pending_transfer",
+    "score": 0.201,
+    "n_shared": 74,
+    "shared_low_df": [
+      "five",
+      "occurred"
+    ]
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "transaction_charged_twice",
+    "score": 0.201,
+    "n_shared": 75,
+    "shared_low_df": [
+      "twice",
+      "visit"
+    ]
+  },
+  {
+    "intent_a": "order_physical_card",
+    "intent_b": "top_up_by_bank_transfer_charge",
+    "score": 0.201,
+    "n_shared": 31,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "pending_cash_withdrawal",
+    "intent_b": "topping_up_by_card",
+    "score": 0.201,
+    "n_shared": 52,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "request_refund",
+    "intent_b": "top_up_reverted",
+    "score": 0.201,
+    "n_shared": 74,
+    "shared_low_df": [
+      "accident"
+    ]
+  },
+  {
+    "intent_a": "atm_support",
+    "intent_b": "card_acceptance",
+    "score": 0.2,
+    "n_shared": 23,
+    "shared_low_df": [
+      "accepts",
+      "station"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_bank_transfer",
+    "intent_b": "declined_card_payment",
+    "score": 0.2,
+    "n_shared": 63,
+    "shared_low_df": [
+      "alright",
+      "latest"
+    ]
+  },
+  {
+    "intent_a": "balance_not_updated_after_cheque_or_cash_deposit",
+    "intent_b": "request_refund",
+    "score": 0.2,
+    "n_shared": 71,
+    "shared_low_df": [
+      "almost"
+    ]
+  },
+  {
+    "intent_a": "cash_withdrawal_charge",
+    "intent_b": "declined_card_payment",
+    "score": 0.2,
+    "n_shared": 66,
+    "shared_low_df": [
+      "grocery"
+    ]
+  },
+  {
+    "intent_a": "declined_card_payment",
+    "intent_b": "transfer_not_received_by_recipient",
+    "score": 0.2,
+    "n_shared": 72,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "declined_cash_withdrawal",
+    "intent_b": "pending_transfer",
+    "score": 0.2,
+    "n_shared": 70,
+    "shared_low_df": [
+      "hard"
+    ]
+  },
+  {
+    "intent_a": "fiat_currency_support",
+    "intent_b": "receiving_money",
+    "score": 0.2,
+    "n_shared": 38,
+    "shared_low_df": [
+      "convert"
+    ]
+  },
+  {
+    "intent_a": "getting_virtual_card",
+    "intent_b": "visa_or_mastercard",
+    "score": 0.2,
+    "n_shared": 33,
+    "shared_low_df": []
+  },
+  {
+    "intent_a": "lost_or_stolen_phone",
+    "intent_b": "topping_up_by_card",
+    "score": 0.2,
+    "n_shared": 40,
+    "shared_low_df": [
+      "anyone"
+    ]
+  }
+]
