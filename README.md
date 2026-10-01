@@ -22,13 +22,12 @@ With 77 distinct banking intents, many user queries are nearly identical in voca
 | Linear SVC | `[TO BE MEASURED]` | `[TO BE MEASURED]` |
 | Multinomial NB | `[TO BE MEASURED]` | `[TO BE MEASURED]` |
 
-## 4. Hypothesis vs. Reality
-Before modeling, 5 "confused pairs" were hypothesized based on prefix clustering and lexical overlap. 
-* `[HYPOTHESIS 1]` -> Result: `[MEASUREMENT]`
-* `[HYPOTHESIS 2]` -> Result: `[MEASUREMENT]`
-* `[HYPOTHESIS 3]` -> Result: `[MEASUREMENT]`
-* `[HYPOTHESIS 4]` -> Result: `[MEASUREMENT]`
-* `[HYPOTHESIS 5]` -> Result: `[MEASUREMENT]`
+## 4. Hypothesis vs. Reality (The Jaccard Watchlist)
+Before modeling, Jaccard EDA flagged specific "confused pairs" where intents share high-IDF discriminators. We hypothesize TF-IDF unigrams will fail here, and bigrams will be required to resolve them.
+* **H1:** `pending_card_payment` ↔ `pending_transfer` *(Common-term overlap, safe pair)* -> Result: `[MEASUREMENT]`
+* **H2:** `card_payment_not_recognised` ↔ `direct_debit_payment_not_recognised` *(Heavy leak: fraudulent, suspicious)* -> Result: `[MEASUREMENT]`
+* **H3:** `top_up_by_bank_transfer_charge` ↔ `top_up_by_card_charge` *(Channel leak: incur, refill)* -> Result: `[MEASUREMENT]`
+* **H4:** `reverted_card_payment?` ↔ `top_up_reverted` *(Action leak: revert, deducted)* -> Result: `[MEASUREMENT]`
 
 ## 5. Failure Gallery & Error Taxonomy
 Manual audit of 20+ misclassifications revealed 4 distinct representation failures in the TF-IDF approach:
