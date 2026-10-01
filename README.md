@@ -7,7 +7,9 @@ With 77 distinct banking intents, many user queries are nearly identical in voca
 
 ## 2. Methodology
 - **Data:** Banking77 (10,003 train / 3,080 test splits).
-- **Pipeline:** `TfidfVectorizer` -> Linear Classifier.
+- **Phase 1: Lexical Leak Detection (EDA):** Pairwise Jaccard similarity across intent vocabularies with a **low-DF (high-IDF) spotlight**. This separates true discriminator leaks (shared rare words) from mere genre overlap (shared common words). 
+  - *Actionable Output:* A tiered watchlist (`jaccard_queue_full.json`) identifying high-risk confusion pairs *before* modeling.
+- **Phase 2: Pipeline:** `TfidfVectorizer(ngram_range=(1,2))` -> Linear Classifier. (Bigrams are specifically deployed to break ties in the high-risk pairs identified in Phase 1).
 - **Models Evaluated:** `LogisticRegression` (balanced), `LinearSVC`, `MultinomialNB`.
 - **Validation Discipline:** 5-Fold Stratified CV on the training set for tuning. The test set is evaluated **strictly once** at the very end to prevent data leakage.
 
