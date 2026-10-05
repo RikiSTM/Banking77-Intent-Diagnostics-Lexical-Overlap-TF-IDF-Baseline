@@ -96,7 +96,6 @@ def prep_data():
         test[TEXT_COL],  test[LABEL_COL],
     )
 
-
 if __name__ == "__main__":
     # PARITY CHECK vs cell verification notebook
     samples = {
