@@ -8,6 +8,7 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+
 # Ignore trained models, weights, and ONNX exports
 models/*
 *.onnx
@@ -32,3 +33,6 @@ jupyter_execute/
 .Spotlight-V100
 .Trashes
 
+# Python bytecode cache
+*.pyc
+__pycache__/
