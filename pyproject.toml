@@ -1,7 +1,7 @@
 [project]
-name = "secure-banking-rag-gateway"
+name = "banking77-intent-router"
 version = "0.1.0"
-description = "Production-grade Hybrid RAG System for Banking77 with Prompt Injection Guards."
+description = "Production-grade intent routing and diagnostics for Banking77 using TF-IDF baseline."
 authors = [
     {name = "RikiSTM",email = "rikisutiaman@gmail.com"}
 ]
