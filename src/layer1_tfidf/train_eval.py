@@ -54,17 +54,29 @@ if __name__ == "__main__":
     mask_te = X_te_s.notna()
     X_te, y_te = X_te_s[mask_te].values, y_te_s[mask_te].values
     
-    print("\n=== STEP 2: 5-FOLD CROSS-VALIDATION ===")
-    scores = evaluate_cv(X_tr, y_tr)
-   
-    mean_f1 = np.mean(scores)
-    std_f1 = np.std(scores)
-    print(f"\n🎯 CV Macro-F1 Mean: {mean_f1:.4f} (± {std_f1:.4f})")
+    print("\n=== STEP 2: THE CLASSIC ML TOURNAMENT (5-FOLD CV) ===")
+    
+    # Daftar Kontestan Turnamen
+    models_to_test = ["logreg", "svc", "nb"]
+    best_clf = None
+    best_score = -1.0
+    
+    for clf_name in models_to_test:
+        print(f"\n--- Evaluating {clf_name.upper()} ---")
+        scores = evaluate_cv(X_tr, y_tr, clf=clf_name)
+        mean_f1 = np.mean(scores)
+        std_f1 = np.std(scores)
+        print(f"🎯 [{clf_name.upper()}] CV Macro-F1: {mean_f1:.4f} (± {std_f1:.4f})")
+        
+        # Sistem Peringkat: Cari yang skornya paling tinggi
+        if mean_f1 > best_score:
+            best_score = mean_f1
+            best_clf = clf_name
     
     print("\n=== STEP 3: FINAL TRAIN & TEST EVALUATION ===")
     
     # 1. Final Fit: Learn from 100% of training data
-    final_pipe = build_pipeline(clf="logreg")
+    final_pipe = build_pipeline(clf=best_clf)
     final_pipe.fit(X_tr, y_tr)
 
     # 2. Predict on the sealed Test Set (Ujian Asli)
